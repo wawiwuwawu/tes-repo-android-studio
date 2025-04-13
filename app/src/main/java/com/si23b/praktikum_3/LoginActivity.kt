@@ -42,7 +42,7 @@ class LoginActivity : AppCompatActivity() {
                 startActivity(intent)
                 finish()
             } else {
-                Toast.makeText(this, "Login Gagal, Perikasa kembali Email dan Password!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Login Gagal, Perikasa kembali Password dan Email!", Toast.LENGTH_SHORT).show()
             }
         }
         registerButton.setOnClickListener {
